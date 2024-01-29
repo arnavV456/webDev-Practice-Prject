@@ -1,0 +1,183 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap:20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+}
+
+.header{
+    margin:0;
+    padding-bottom: 100px;
+    background-color:#1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.topband{
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.logo{
+    font-size: 24px;
+    margin:auto;
+    margin-left:0;
+    padding:10px;
+    color: #f9faf8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.bottomband{
+    align-self: center;
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    gap:60px;
+
+}
+.hero{
+    font-size: 48px;
+    font-weight:900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width:400px;
+    margin-right: 20px;
+}
+.hero-text{
+    width:300px;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.imageholder{
+    
+    width:400px;
+    height:200px;
+    background-color: gray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.button1{
+    background-color:#3882f6 ;
+    color: white;
+    border-radius: 5px;
+    border-color:#3882f6 ;
+    padding:10px;
+    padding-right: 5px;
+    align-self: baseline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mainContent{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-title{
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+.subtexts{
+    display: flex;
+    gap:100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    height:200px;
+    width:200px;
+    border:3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:#3882f6 ;
+    flex-shrink: 1;
+    
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.quote{
+    margin-top: 0;
+    padding:10px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+
+
+}
+.quote-block{
+    height:400px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#e5e7eb;
+    color:black;
+    margin-bottom: 30px;
+}
+.action{
+    background-color: #3882f6;
+    width: 75vw;
+    height:100px;
+    border-radius: 30px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.action-text{
+    font-size: 20px;
+    margin-right: 35px;
+    color: white;
+}
+.button2{
+    color: white;
+    border: 2px white solid;
+    border-radius: 10px;
+    background-color:#3882f6  ;
+    font-size: 20px;
+    padding:15px;
+}
+.footer{
+    width:100vw;
+    height:50px;
+    background-color: #1f2937;
+    text-align: center;
+    padding:10px;
+    color: white;
+}
